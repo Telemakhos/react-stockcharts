@@ -801,7 +801,7 @@ class ChartCanvas extends Component {
 							<rect x="0" y="0" width={dimensions.width} height={dimensions.height} />
 						</clipPath>
                         <linearGradient id="Gradient2" x1="0" x2="0" y1="0" y2="1">
-                            <stop offset="0%" stop-color="#94B6FF"stop-opacity="0.2"/>
+                            <stop offset="0%" stop-color="#94B6FF" stop-opacity="0.2"/>
                             <stop offset="100%" stop-color="black" stop-opacity="0"/>
                         </linearGradient>
 						{chartConfig
