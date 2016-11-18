@@ -800,6 +800,10 @@ class ChartCanvas extends Component {
 						<clipPath id="chart-area-clip">
 							<rect x="0" y="0" width={dimensions.width} height={dimensions.height} />
 						</clipPath>
+                        <linearGradient id="Gradient2" x1="0" x2="0" y1="0" y2="1">
+                            <stop offset="0%" stop-color="#94B6FF"stop-opacity="0.2"/>
+                            <stop offset="100%" stop-color="black" stop-opacity="0"/>
+                        </linearGradient>
 						{chartConfig
 							.map((each, idx) => <clipPath key={idx} id={`chart-area-clip-${each.id}`}>
 								<rect x="0" y="0" width={each.width} height={each.height} />
